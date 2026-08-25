@@ -1,0 +1,24 @@
+# Reference configuration for a Linux USB-gadget appliance.
+# Exact integration keys vary by distribution; this file documents intent.
+# No HID, mass-storage, Ethernet, serial, or speaker interface is permitted.
+otg:
+  manufacturer: Neelverse Studios Private Limited
+  product: Neelverse UVC Camera
+  serial: NVS-UVC-REPLACE-ME
+  device_version: 0x0100
+  devices:
+    camera:
+      enabled: true
+      start: true
+    audio:
+      enabled: false
+      start: false
+    drives:
+      enabled: false
+      start: false
+    ethernet:
+      enabled: false
+      start: false
+    serial:
+      enabled: false
+      start: false

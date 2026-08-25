@@ -1,0 +1,10 @@
+{
+  "vid": "0x1209",
+  "pid": "0x0001",
+  "manufacturer": "Neelverse Studios Private Limited",
+  "product": "Neelverse UVC Camera",
+  "serial": "NVS-UVC-000001",
+  "test_only": true,
+  "allocation_confirmed": false,
+  "bcd_device": "0x0100"
+}
